@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Plumber3">
+
+    <TextView
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="16dp"
+        android:text="Pricing and Terms"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="44dp"
+        android:paddingLeft="44dp"
+        android:layout_below="@+id/b1"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="3dp"
+        android:text="Free inspection by Technician. Ifservice taken,following rate card applies:-" />
+
+    <TextView
+        android:id="@+id/b3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_below="@id/b2"
+        android:paddingTop="130dp"
+        android:text="Hourly pricing"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/b4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/b3"
+        android:layout_below="@+id/b3"
+        android:paddingTop="5dp"
+        android:text="Upto 30 mins:          Rs199" />
+
+    <TextView
+        android:id="@+id/b5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/b3"
+        android:layout_below="@+id/b4"
+        android:paddingTop="5dp"
+        android:text="Upto 1 Hour:            Rs249" />
+
+    <TextView
+        android:id="@+id/b6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/b3"
+        android:layout_below="@+id/b5"
+        android:paddingTop="5dp"
+        android:text="Upto 1.5 Hour:         Rs349" />
+
+    <TextView
+        android:id="@+id/b7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/b6"
+        android:layout_below="@+id/b6"
+        android:paddingTop="5dp"
+        android:text="Upto 2 Hour:            Rs449" />
+
+    <TextView
+        android:id="@+id/b8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/b3"
+        android:layout_below="@+id/b7"
+        android:paddingTop="5dp"
+        android:text="Upto 2.5 Hour:         Rs549" />
+
+    <TextView
+        android:id="@+id/b9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/b6"
+        android:layout_below="@+id/b8"
+        android:paddingTop="5dp"
+        android:text="Upto 3 Hour:            Rs449" />
+
+    <TextView
+        android:id="@+id/b10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/b6"
+        android:layout_below="@+id/b9"
+        android:paddingTop="5dp"
+        android:text="After 3 Hour:            Rs50 per 30 mins" />
+
+    <TextView
+        android:id="@+id/b11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_below="@id/b10"
+        android:paddingTop="350dp"
+        android:text="Additional Cost"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/b12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="44dp"
+        android:paddingLeft="44dp"
+        android:layout_below="@+id/b11"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="5dp"
+        android:text="Rs100 convenience fee for material procurement"/>
+
+    <TextView
+        android:id="@+id/b13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_below="@id/b11"
+        android:paddingTop="420dp"
+        android:text="Note"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/b14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="44dp"
+        android:paddingLeft="44dp"
+        android:layout_below="@+id/b13"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="5dp"
+        android:text="Prices for Drain and Pipe Bloackage work will be provided after insection"/>
+
+    <Button
+        android:id="@+id/b15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-134dp"
+        android:layout_toEndOf="@+id/b3"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/b16"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Back" />
+
+</RelativeLayout>

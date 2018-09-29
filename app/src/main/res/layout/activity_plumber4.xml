@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Plumber4">
+
+    <TextView
+        android:id="@+id/c1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="16dp"
+        android:paddingRight="70dp"
+        android:paddingLeft="70dp"
+        android:text="Which installation service do you require?"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/c2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        tools:layout_marginTop="50dp"
+        android:layout_below="@+id/c1"
+        android:text="Toilet"/>
+
+    <TextView
+        android:id="@+id/c3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_below="@id/b2"
+        android:paddingTop="165dp"
+        android:text="Rs 1,499"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/c4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/c3"
+        android:layout_below="@+id/c3"
+        android:paddingTop="5dp"
+        android:text="Includes installation work" />
+
+    <TextView
+        android:id="@+id/c5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/c3"
+        android:layout_below="@+id/c4"
+        android:paddingTop="5dp"
+        android:text="Rs 249 as visiting/quotationcharge if service is not availed" />
+
+    <RadioButton
+        android:id="@+id/c6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        tools:layout_marginTop="50dp"
+        android:layout_below="@+id/c5"
+        android:text="Kitchen/Bathroom Sink"/>
+
+    <TextView
+        android:id="@+id/c7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_below="@id/c6"
+        android:paddingTop="315dp"
+        android:text="Rs 799"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/c8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/c3"
+        android:layout_below="@+id/c7"
+        android:paddingTop="5dp"
+        android:text="Includes installation work" />
+
+    <TextView
+        android:id="@+id/c9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/c3"
+        android:layout_below="@+id/c8"
+        android:paddingTop="5dp"
+        android:text="Rs 249 as visiting/quotationcharge if service is not availed" />
+
+</RelativeLayout>

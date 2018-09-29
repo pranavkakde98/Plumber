@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Plumber2">
+
+    <TextView
+        android:id="@+id/a1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Which Service do you require?"
+        android:layout_centerHorizontal="true"
+        tools:layout_marginTop="50dp"
+        android:textSize="19sp"
+        android:paddingBottom="50dp"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/a2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+
+        android:layout_below="@+id/a1"
+        android:text="Repairs and Fixes Rs.199"/>
+
+    <TextView
+        android:id="@+id/a3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a2"
+        tools:layout_marginTop="0dp"
+        android:text="Free inspection "
+        android:textStyle="italic"
+        android:layout_marginLeft="50dp" />
+    <TextView
+        android:id="@+id/a4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a3"
+        tools:layout_marginTop="0dp"
+        android:text="Pay if you take service as per rate card shared next "
+        android:textStyle="italic"
+        android:paddingBottom="50dp"
+        android:layout_marginLeft="50dp" />
+
+    <RadioButton
+        android:id="@+id/a5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+
+        android:layout_below="@+id/a4"
+        android:text="Standard Installation Services"/>
+    <TextView
+        android:id="@+id/a6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a5"
+        tools:layout_marginTop="0dp"
+        android:text="Recommended for Installation of Major hardware fitting like Western Toilet, Wash Basin,etc"
+        android:textStyle="italic"
+        android:layout_marginLeft="50dp" />
+
+</RelativeLayout>
